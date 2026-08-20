@@ -28,9 +28,13 @@ export default defineConfig({
             { text: '概览', link: '/ai/' },
             { text: 'AI 基础', link: '/ai/fundamentals' },
             { text: '大模型与提示词', link: '/ai/llm-prompting' },
+            { text: '教程：把提示词写成工作说明', link: '/ai/prompt-context' },
             { text: 'AI 工具', link: '/ai/tools' },
+            { text: '教程：按任务选择 AI 工具', link: '/ai/ai-tools-workflow' },
             { text: 'AI 编程', link: '/ai/coding' },
+            { text: '教程：给 AI 编程助手补齐上下文', link: '/ai/ai-coding-context' },
             { text: '工作流与自动化', link: '/ai/workflows' },
+            { text: '教程：设计个人自动化工作流', link: '/ai/personal-automation' },
             { text: '论文与资源', link: '/ai/papers-resources' }
           ]
         }
@@ -44,7 +48,9 @@ export default defineConfig({
             { text: '前端开发', link: '/tech/frontend' },
             { text: '后端开发', link: '/tech/backend' },
             { text: '工具与效率', link: '/tech/tools-productivity' },
-            { text: '工程实践', link: '/tech/engineering' }
+            { text: '教程：让开发记录找得到', link: '/tech/developer-notes-system' },
+            { text: '工程实践', link: '/tech/engineering' },
+            { text: '教程：一个人维护项目的习惯', link: '/tech/solo-project-habits' }
           ]
         }
       ]
