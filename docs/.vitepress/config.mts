@@ -5,7 +5,14 @@ export default defineConfig({
   title: 'Rsh 的笔记',
   description: '记录思考、AI 学习与技术实践。',
   base: '/RshBook/',
+  lastUpdated: true,
   themeConfig: {
+    lastUpdated: {
+      text: '最后更新',
+      formatOptions: {
+        dateStyle: 'medium'
+      }
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '随笔', link: '/essays/' },
