@@ -46,6 +46,23 @@ body {
   letter-spacing: 0.02em;
 }
 
+.VPSidebarItem.level-2 .item {
+  margin-left: 10px;
+  padding-left: 14px;
+  border-left: 1px solid var(--vp-c-divider);
+}
+
+.VPSidebarItem.level-2 .text {
+  color: var(--vp-c-text-2);
+  font-size: 0.9rem;
+}
+
+.VPSidebarItem.level-2 .text::before {
+  content: '↳';
+  margin-right: 7px;
+  color: var(--vp-c-brand-2);
+}
+
 .VPDoc {
   padding: 48px 32px 96px;
 }
